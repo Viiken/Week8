@@ -1,0 +1,136 @@
+
+/* {
+    border: 1px solid red;
+  }*/
+
+html {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(180deg, #84daf5, #89ffff, #affffa, #ffffff);
+  }
+  body {
+    margin: 1rem, 5rem;
+  
+  }
+  
+  h1 {
+    margin: 2rem;
+    text-align: center;
+    filter: drop-shadow(2,2,1,#0f6a9e)
+  }
+  h2 {
+    margin: 2rem auto 1rem auto;
+    text-align: center;
+    filter: drop-shadow(2,2,1,#0f6a9e)
+  }
+
+  h3{
+    text-align: left;
+  }
+
+  h4 {
+    text-align: right;
+  }
+
+  p,
+  li {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  img {
+    margin: 1rem, 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px,2px,2px,2px,1px,rgba(0, 0, 0, 0.5);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 50%;*/
+    margin-top: 3rem;
+  }
+
+  footer {
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+    color: rgb(0, 225, 255);    
+  }
+
+  tr {
+    align-content:flex-end;
+  }
+
+  form {
+    text-align: center;
+    padding: 30px;
+  }
+  
+  /* ---CUSTOM CLASS NAME SELECTORS--- */
+  #db11img {
+    max-width: 80%;
+    height: auto;
+  }
+
+  #dbsimg {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .dbs-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: start;
+  }
+
+  .dbs-div-box1 {
+    margin: 120px 120px 0px 0px;
+    text-align: center;
+  }
+
+  .db11-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: start;
+    margin-top: 40px;
+  }
+
+  .db11-div-box2 {
+    margin: 150px 0px 0px 40px;
+    text-align: center;
+  }
+
+
+
+
+  @media only screen and (max-width: 1500px) {
+    .img-div img {
+      width: 420px;
+    }
+  }
+  
+  @media only screen and (max-width: 1100px) {
+    .tips-div {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    body {
+      margin: 1rem;
+    }
+    p,
+    li {
+      font-size: 16px;
+    }
+    .img-div img {
+      width: 230px;
+    }
+    .tips-div img {
+      width: 230px;
+    }
+    #banner-long {
+      display:none;
+    }
+    #banner-short {
+      display:block;
+    }
+  }
